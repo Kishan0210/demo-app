@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
      });
 
 // Basic route
-     app.get('/', (req, res) => {
+    app.get('/', (req, res) => {
        res.send('Hello, this is a demo web app running on Azure VM!');
        });
 
